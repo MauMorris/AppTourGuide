@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="title_activity_tour">TourGuide</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_text">Bienvenido a</string>
+    <string name="welcome_text_2">Mi Ciudad</string>
+
+    <string name="page_1">portada1</string>
+    <string name="page_2">portada2</string>
+    <string name="page_3">portada3</string>
+
+    <string name="title_page_1">Bienvenido a mi ciudad</string>
+    <string name="title_page_2">Todo lo que necesitas</string>
+    <string name="title_page_3">¡Ya es hora!</string>
+
+    <string name="subtitle_page_1">Mi Ciudad es la aplicación oficial \n
+                                        de la Ciudad de México.</string>
+    <string name="subtitle_page_2">Aqui encontrarás una guia de restaurantes,
+                                    lugares turísticos, atracciones y eventos del día a día.</string>
+    <string name="subtitle_page_3">Conozcamos más a fondo tu ciudad.</string>
+
+    <string name="omit_button">OMITIR</string>
+    <string name="next_button">SIG</string>
+    <string name="continue_button">COMENZAR</string>
+
+    <string name="titulo">titulo</string>
+    <string name="subtitulo">subtitulo</string>
+
+    <string name="titulo_museos">Museos</string>
+    <string name="titulo_gastronomia">Gastronomia</string>
+    <string name="titulo_vida_nocturna">Vida Nocturna</string>
+    <string name="titulo_hoteles">Hoteles</string>
+    <string name="titulo_festividades">Festividades</string>
+    <string name="titulo_arquitectura">Arquitectura</string>
+    <string name="titulo_compras">Compras</string>
+
+    <string name="zona_condesa">Colonia Condesa</string>
+    <string name="zona_polanco">Polanco</string>
+    <string name="zona_centro">Centro Historico</string>
+    <string name="zona_roma">Colonia Roma</string>
+    <string name="zona_rosa_reforma_chapultepec">Zona Rosa - Reforma - Chapultepec</string>
+    <string name="zona_sur">Zona Sur</string>
+
+    <string name="contenido_museos">Guia de museos de la ciudad.</string>
+    <string name="contenido_gastronomia">Restaurantes y especialidades.</string>
+    <string name="contenido_vida_nocturna">Los mejores bares, antros y más.</string>
+    <string name="contenido_hoteles">Donde quedarse en su visita a la ciudad.</string>
+    <string name="contenido_festividades">Calendario de festividades mensuales en la ciudad.</string>
+    <string name="contenido_arquitectura">Lugares y edificios emblematicos por visitar.</string>
+    <string name="contenido_compras">Las mejores boutiques y zonas de compra en la ciudad.</string>
+
+    <string name="museo_centro_san_ildefonso">Antiguo Colegio de San Ildefonso</string>
+    <string name="museo_centro_casa_ahuizotle">Casa del Hijo del Ahuizotle</string>
+    <string name="museo_centro_franz_mayer">Museo Franz Mayer</string>
+    <string name="museo_centro_alameda">Laboratorio Arte Alameda</string>
+    <string name="museo_centro_tolerancia">Museo Memoria y Tolerancia</string>
+    <string name="museo_centro_bellas_artes">Museo del Palacio de Bellas Artes</string>
+    <string name="museo_centro_numismatico">Museo Numismatico Nacional</string>
+    <string name="museo_centro_map">Museo de Arte Popular</string>
+    <string name="museo_centro_chopo">Museo Universitario del Chopo</string>
+    <string name="museo_centro_españa">Centro Cultural de España</string>
+
+    <string name="museo_roma_lamm">Museo Casa Lamm</string>
+    <string name="museo_roma_modo">Museodel Objeto del Objeto (MODO)</string>
+    <string name="museo_roma_juguete_antiguo">Museo del Juguete Antiguo</string>
+    <string name="museo_roma_monclova">Proyectos Monclova</string>
+    <string name="museo_roma_muca">Museo Ciencias y Arte MUCA</string>
+    <string name="museo_roma_omr">Museo Galeria OMR</string>
+
+    <string name="museo_condesa_barragan">Casa Luis Barragan</string>
+    <string name="museo_condesa_gam">Galeria de Arte Mexicano</string>
+    <string name="museo_condesa_kurimanzutto">Museo Kurimanzutto</string>
+    <string name="museo_condesa_labor">Museo y Casa LABOR</string>
+
+    <string name="museo_reforma_mam">Museo de Arte Moderno (MAM)</string>
+    <string name="museo_reforma_eco">Museo Experimental El Eco</string>
+    <string name="museo_reforma_antropologia">Museo Nacional de Antropologia e Historia</string>
+    <string name="museo_reforma_contemporaneo">Museo Tamayo de Arte Contemporaneo</string>
+    <string name="museo_reforma_arredondo">Arredondo/Arozarena</string>
+    <string name="museo_reforma_patricia">Patricia Conde Galeria</string>
+
+    <string name="museo_polanco_jumex">Museo de Jumex</string>
+    <string name="museo_polanco_soumaya">Museo Soumaya</string>
+    <string name="museo_polanco_saps">Sala de Arte Publico Siqueiros</string>
+
+    <string name="museo_sur_carrillo_gil">Museo de Arte Carrillo Gil</string>
+    <string name="museo_sur_anahuacalli">Museo Diego Rivera Anahuacalli</string>
+    <string name="museo_sur_estudio">Museo Estudio Diego Rivera</string>
+    <string name="museo_sur_olmedo">Museo Dolores Olmedo Patiño</string>
+    <string name="museo_sur_universitario">Museo Universitario de Arte Contemporaneo</string>
+    <string name="museo_sur_soma">Museo Casa SOMA</string>
+
+    <string name="contenido_museo_centro_san_ildefonso">La Ex Escuela Preparatoria es sede de interesantes exposiciones.
+        Sus patios interiores, los murales de Orozco o Diego Rivera
+    y la entrada libre los martes son solo algunos motivos para visitarlo.</string>
+    <string name="contenido_museo_centro_casa_ahuizotle">El hijo del Ahuizotle era un periodico antiporfirista que
+    los hermanos Flores Magon imprimian en este edificio -recuperado y remodelado en 2012
+    que hoy cuenta con mas de 15,000 documentos.</string>
+    <string name="contenido_museo_centro_franz_mayer">La coleccion de Franz Mayer de plateria, ceramica, mobiliario,
+        telas, escultura y pintura convive con una biblioteca de mas de 800 ediciones de El ingenioso Hidalgo Don Quijote de la Mancha</string>
+    <string name="title_activity_ubicacion">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
+

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.mauriciogodinez.tourguideapp.TourActivity">
+
+        <ImageView
+            android:id="@+id/image_view_tour"
+            android:layout_width="278dp"
+            android:layout_height="173dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="@dimen/normal_heigth_button"
+            android:contentDescription="@string/titulo"
+            android:scaleType="fitXY"
+            android:src="@drawable/cdmx_1" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        style="@style/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titulo" />
+
+    <TextView
+        android:id="@+id/text_view_subtitle"
+        style="@style/text_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/subtitulo" />
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_condesa"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_condesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_polanco"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_polanco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_centro"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_centro_historico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_roma"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_roma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_rosa_reforma_chapultepec"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_zona_rosa_reforma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vertical_card_text"
+            android:layout_marginBottom="@dimen/vertical_card_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/zona_sur"
+            android:textSize="@dimen/title_text_zonas" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/container_sur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.mauriciogodinez.tourguideapp.UbicacionActivity">
+
+    <ScrollView
+        android:id="@+id/InfoLugar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/card_ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </include>
+
+            <TextView
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/museo_centro_alameda"/>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contenido_arquitectura"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@id/InfoLugar"
+        android:layout_height="250dp"
+        tools:context="com.example.mauriciogodinez.tourguideapp.UbicacionActivity" />
+
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+    android:layout_marginStart="20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="25dp" />
+
+</RelativeLayout>
