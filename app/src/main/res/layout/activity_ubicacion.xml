@@ -31,6 +31,7 @@
                 android:text="@string/museo_centro_alameda"/>
 
             <TextView
+                android:id="@+id/text_view_location"
                 android:layout_margin="10dp"
                 android:gravity="center"
                 android:layout_width="match_parent"
